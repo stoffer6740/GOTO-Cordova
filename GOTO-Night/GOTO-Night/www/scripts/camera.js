@@ -15,7 +15,5 @@ function CameraSuccess(imageData) {
 }
 
 function CameraError(error) {
-    alert("Something went wrong");
     console.log(error);
 }
-

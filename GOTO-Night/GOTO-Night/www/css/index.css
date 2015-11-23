@@ -1,9 +1,9 @@
 ﻿body {
+    text-align: left;
     width: 100%;
-    overflow-x: hidden;
 }
 
 
 #myImage {
-    width: 100%;
+    width: 75%;
 }
