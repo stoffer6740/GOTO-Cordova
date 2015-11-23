@@ -79,6 +79,7 @@
     "res\\icons\\ios\\icon-60-3x.png",
     "plugins\\cordova-plugin-whitelist\\whitelist.js",
     "plugins\\fetch.json",
+    "config.xml",
     "plugins\\cordova-plugin-camera\\doc\\de\\README.md",
     "plugins\\cordova-plugin-camera\\doc\\de\\index.md",
     "plugins\\cordova-plugin-geolocation\\www\\blackberry10\\GeolocationProxy.js",
@@ -105,6 +106,7 @@
     "plugins\\cordova-plugin-camera\\doc\\ja\\index.md",
     "plugins\\cordova-plugin-camera\\src\\browser\\CameraProxy.js",
     "res\\icons\\ios\\icon-small.png",
+    "www\\scripts\\camera.js",
     "plugins\\cordova-plugin-camera\\www\\CameraPopoverHandle.js",
     "plugins\\cordova-plugin-camera\\tests\\ios\\CDVCameraTest\\CDVCameraTest.xcodeproj\\project.xcworkspace\\xcshareddata\\CDVCameraTest.xccheckout",
     "res\\icons\\windows\\Square30x30Logo.scale-100.png",
@@ -212,9 +214,7 @@
     "plugins\\cordova-plugin-camera\\tests\\ios\\doc\\zh\\README.md",
     "plugins\\cordova-plugin-whitelist\\README.md",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
-    "res\\screens\\android\\screen-mdpi-portrait.png",
-    "config.xml",
-    "www\\scripts\\camera.js"
+    "res\\screens\\android\\screen-mdpi-portrait.png"
   ],
   "deletedFilesIos": [],
   "addedPluginsIos": [
@@ -222,7 +222,10 @@
     "cordova-plugin-geolocation@1.0.1"
   ],
   "deletedPluginsIos": [],
-  "changedFiles": [],
+  "changedFiles": [
+    "www\\css\\index.css",
+    "www\\index.html"
+  ],
   "deletedFiles": [],
   "addedPlugins": [],
   "deletedPlugins": []

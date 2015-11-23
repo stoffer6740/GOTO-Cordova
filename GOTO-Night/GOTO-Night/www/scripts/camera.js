@@ -1,6 +1,4 @@
-﻿
-
-function capturePhoto() {
+﻿function capturePhoto() {
 
     var cameraOptions = {
         quality: 50,
@@ -11,6 +9,7 @@ function capturePhoto() {
 }
 
 function CameraSuccess(imageData) {
+    console.log("Image captured");
     var image = document.getElementById('myImage');
     image.src = "data:image/jpeg;base64," + imageData;
 }
@@ -18,6 +17,5 @@ function CameraSuccess(imageData) {
 function CameraError(error) {
     alert("Something went wrong");
     console.log(error);
-
 }
 
