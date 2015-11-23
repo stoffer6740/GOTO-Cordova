@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta />
+    <title>GOTONight</title>
+
+    <!-- GOTONight references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <p id="cordovaMsg">Hello, your application is ready!</p>
+    <hr/>
+</div>
+
+<div>
+    <h1>Device</h1>
+    <p id="deviceinformation"></p>
+    <button id="getDeviceInformation">Get device information</button>
+    <hr />
+</div>
+
+<div >
+    <h1>Camera</h1>
+    <button id="getImage">Get image</button>
+    <img id="myImage">
+    <hr/>
+</div>
+
+<div>
+    <h1>Accelerometer</h1>
+    <p id="accelerometer"></p>
+    <button id="getAccelerometerData">Get accelerometer data</button>
+    <hr/>
+</div>
+
+<div>
+    <h1>Device orientation</h1>
+    <p id="orientation"></p>
+    <p id="watchOrientation"></p>
+    <button id="getDeviceOrientation">Get device orientation</button>
+    <button id="watchDeviceOrientation">Watch continuously</button>
+</div>
+
+<!-- Cordova reference, this is added to your app when it's built. -->
+<script src="cordova.js"></script>
+<script src="scripts/platformOverrides.js"></script>
+
+<script src="scripts/device.js"></script>
+<script src="scripts/orientation.js"></script>
+<script src="scripts/accelerometer.js"></script>
+<script src="scripts/camera.js"></script>
+<script src="scripts/index.js"></script>
+
+</body>
+</html>
